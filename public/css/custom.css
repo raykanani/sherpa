@@ -1,0 +1,90 @@
+img.screenshot {
+    box-shadow: 1px 1px 3px #868686;
+    border: 1px solid #efefef;
+}
+
+.post-title, .post-subtitle {
+  display: inline-block;
+}
+
+.post-subtitle {
+  color: silver;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+}
+
+.max-width-550 {
+  width: 100%;
+  max-width: 550px;
+}
+
+.margin-none {
+	margin: 0;
+}
+
+.profile-picture-container {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	float: left;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+.profile-picture {
+	width: 100px;
+}
+
+.sign-up {
+    background-color: #2E404E;
+    padding: 20px;
+    color: white;
+    height: 75px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0;
+}
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    position: relative;
+    padding: 7px 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-left: 10px;
+}
+
+.btn-sign-up {
+    background: #EE6352;
+    color: #fff;
+    box-shadow: 0 6px #e49c93;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-radius: 4px;
+}
+
+.btn-sign-up:hover {
+    box-shadow: 0 4px #e49c93;
+    top: 2px;
+}
+
+.btn-sign-up:active {
+    box-shadow: 0 0 #e49c93;
+    top: 6px;
+}

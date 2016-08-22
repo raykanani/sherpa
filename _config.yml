@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Quartermaster
+tagline:             ''
+description:         "The creators of <a href='' target='_blank'>Playbooks</a> and Qbot, Quartermaster Branch builds tools that power the world's top teams"
+url:                 127.0.0.1:4000
+baseurl:             ''
+paginate:            1
+
+# About/contact
+author:
+  name:              Ray Kanani
+  url:               https://twitter.com/raykanani
+  email:             ray@qrtrmstr.com
+
+# Custom vars
+version:             1.0.0
